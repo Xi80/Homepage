@@ -1,121 +1,20 @@
-* {
-    margin:0; padding:0;
-    line-height:1.5;
-    color:#333333;
-
-}
-
-body{
-    background-color: beige;
-    text-align:center;
-}
-
-.top{
-    margin-left:230px;
-    text-align:center;
-}
-
-.top .contents table{
-    margin-left:auto;margin-right:auto;
-}
-
-footer{
-    margin-top:100px;
-    margin-left:230px;
-}
-
-.sideMenu
-{
-    position : absolute ;
-    left : 0 ;
-    width : 230px ;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    background-color:#D2E6F0;
-    text-align:center;
-    border: 4px outset #31A9EE;
-    margin-top:10px
-}
-
-.sideMenu #sideMenuContents{
-    margin-top:20px;
-    padding-bottom:6px;
-    background-repeat:no-repeat; background-position:bottom;
-}
-
-.sideMenu #sideMenuContents li a{
-    text-decoration:none;		/*リンクの下線を無くす*/
-}
-.sideMenu #sideMenuContents li a:hover{
-    background-color:#ffffff;	/*リンクにマウスが乗ったら色を変える*/
-}
-
-.sideMenu ul, ol {
-    margin-top:4vh;
-    margin-left:1vw;
-    margin-right:1vw;
-    padding: 0;
-    position: relative;
-}
-
-.sideMenu ul li, ol li {
-    color: #2d8fdd;
-    border-left: solid 6px #2d8fdd;/*左側の線*/
-    background: #f1f8ff;/*背景色*/
-    margin-bottom: 3px;/*下のバーとの余白*/
-    line-height: 1.5;
-    padding: 0.5em;
-    list-style-type: none!important;/*ポチ消す*/
-}
-
-.top .contents table {
-    border-collapse: collapse;  /* セルの線を重ねる */
-}
-
-.top .contents th,td {
-    padding: 5px 10px;          /* 余白指定 */
-}
-
-.top .contents th {
-    background-color: #2196F3;  /* 背景色指定 */
-    color:  #fff;               /* 文字色指定 */
-    font-weight:  normal;       /* 文字の太さ指定 */
-    position:  relative;        /* 位置指定 */
-    z-index: 10;                /* 重なり調整 */
-}
-
-.top .contents td {
-    background-color:  #c0c9ff; /* 背景色指定 */
-    padding-left: 25px;         /* 余白指定 */
-}
-
-.top .contents th::after {
-    content:'';                 /* 空の要素を作る */
-    position:  absolute;        /* 位置指定 */
-    height: 24px;               /* 高さ指定 */
-    width: 24px;                /* 幅指定 */
-    background-color: #2196F3;  /* 背景色指定 */
-    transform:  rotate(45deg);  /* 要素を回転 */
-    top: 5px;                   /* 位置指定 */
-    right: -12px;               /* 位置指定 */
-    z-index:  -1;               /* 重なり調整 */
-}
-
-.top .contents tr {
-    border-bottom:  solid #fff; /* 線指定 */
-}
-
-.aboutme{
-    margin-left:230px;
-}
-
-.aboutme table{
-    margin-left:auto;margin-right:auto;
-}
-
-.box{
-    display:inline-block;
-    margin-left:10px;
-    margin-right:10px;
-}
+*{margin:0;padding:0;line-height:1.5;color:#333333;}
+body{background-color:beige;text-align:center;}
+.top{margin-left:230px;text-align:center;}
+.top .contents table{margin-left:auto;margin-right:auto;}
+footer{margin-top:100px;margin-left:230px;}
+.sideMenu{position:absolute;left:0;width:230px;min-height:100%;height:auto !important;height:100%;background-color:#D2E6F0;text-align:center;border:4px outset #31A9EE;margin-top:10px}
+.sideMenu #sideMenuContents{margin-top:20px;padding-bottom:6px;background-repeat:no-repeat;background-position:bottom;}
+.sideMenu #sideMenuContents li a{text-decoration:none;}
+.sideMenu #sideMenuContents li a:hover{background-color:#ffffff;}
+.sideMenu ul, ol{margin-top:4vh;margin-left:1vw;margin-right:1vw;padding:0;position:relative;}
+.sideMenu ul li, ol li{color:#2d8fdd;border-left:solid 6px #2d8fdd;background:#f1f8ff;margin-bottom:3px;line-height:1.5;padding:0.5em;list-style-type:none!important;}
+.top .contents table{border-collapse:collapse;}
+.top .contents th,td{padding:5px 10px;}
+.top .contents th{background-color:#2196F3;color:#fff;font-weight:normal;position:relative;z-index:10;}
+.top .contents td{background-color:#c0c9ff;padding-left:25px;}
+.top .contents th::after{content:'';position:absolute;height:24px;width:24px;background-color:#2196F3;transform:rotate(45deg);top:5px;right:-12px;z-index:-1;}
+.top .contents tr{border-bottom:solid #fff;}
+.aboutme{margin-left:230px;}
+.aboutme table{margin-left:auto;margin-right:auto;}
+.box{display:inline-block;margin-left:10px;margin-right:10px;}
