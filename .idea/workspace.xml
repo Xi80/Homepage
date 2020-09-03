@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b58f96-1c9b-4d4c-93d9-0fba3fab08a5" name="Default Changelist" comment="" />
+    <list default="true" id="28b58f96-1c9b-4d4c-93d9-0fba3fab08a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,9 +131,11 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/renatomarinho/laravel-page-speed" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gyUQPA5Fv1qnXD0z7rg44cg7cD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -163,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599086308958</updated>
-      <workItem from="1599086429196" duration="9740000" />
+      <workItem from="1599086429196" duration="10533000" />
     </task>
     <servers />
   </component>
@@ -179,6 +189,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599087780055" />
+    <state x="839" y="417" key="Github.ShareDialog" timestamp="1599097007154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="839" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599097007154" />
+    <state x="732" y="224" key="Github.UntrackedFilesDialog" timestamp="1599097023270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599097023270" />
     <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1599087380067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
